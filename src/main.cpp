@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+// comentario de prueba 
 void setup() {
   Serial.begin(115200);
   // Print log
@@ -8,7 +8,10 @@ void setup() {
 
 float i=0;
 void loop() {
-  i+=0.1;
+  //segundo coment
+
+  i+=0.1; 
+
 
   // Print log
   Serial.print("loop");
@@ -21,6 +24,8 @@ void loop() {
   // Plot a cosinus
   Serial.print(">cos:");
   Serial.println(cos(i));
-    
+  Serial.print(">tan:");
+  Serial.println(tan(i));
+
   delay(50);
 }
