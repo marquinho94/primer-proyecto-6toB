@@ -16,6 +16,7 @@ void loop() {
   // Print log
   Serial.print("loop");
   Serial.println(i);
+  delay(50);
   
   // Plot a sinus
   Serial.print(">sin:");
